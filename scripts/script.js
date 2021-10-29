@@ -72,13 +72,13 @@ function checkIfEmpty(string) {
         console.log(typeof cleanData)  ;  
         //console.log(data.eyeColorColumn);
         //console.log(cleanData.filter())
-        console.log("obj values: ", Object.values(data[1]))
-        console.log("stringify: ",JSON.stringify(data[1].eyeColorColumn))
+        //console.log("obj values: ", Object.values(data[1]))
+        //console.log("stringify: ",JSON.stringify(data[1].eyeColorColumn))
         cleanData.map((item) => {
             console.log(item[eyeColorColumn])
             let li = document.createElement('p')
             li.innerHTML = item[eyeColorColumn]
-            document.body.appendChild
+            document.body.appendChild(li)
         })
        
     });
