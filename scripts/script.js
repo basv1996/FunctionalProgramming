@@ -23,9 +23,9 @@ function parseData() {
 	})
 	.then(data => {
 		return data.map(obj => {
-			obj[eyeColorColumn]
+			//obj[eyeColorColumn]
+            obj['Wat is je oogkleur?'] = convertToString(obj['Wat is je oogkleur?']);
 			return obj;
-            console.log("hello");
 		})
 	}).catch(err => {
 		console.log(err);
@@ -63,9 +63,23 @@ function checkIfEmpty(string) {
     }
 
 
+
+
     parseData().then(cleanData => {
         console.log('Opgeschoond man');
-        console.table(cleanData);      
+        console.table(cleanData);  
+        console.log(cleanData);
+        console.log(typeof cleanData)  ;  
+        //console.log(data.eyeColorColumn);
+        //console.log(cleanData.filter())
+        console.log("obj values: ", Object.values(data[1]))
+        console.log("stringify: ",JSON.stringify(data[1].eyeColorColumn))
+        cleanData.map((item) => {
+            console.log(item[eyeColorColumn])
+            let li = document.createElement('p')
+            li.innerHTML = item[eyeColorColumn]
+            document.body.appendChild
+        })
        
     });
 
