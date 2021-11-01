@@ -25,7 +25,7 @@ Voor het vak functional programming is het concept dat je data weet te fetchen u
 ## ⚙️ Installatie
 Om deze app te installeren kan je de repository clonen:
 ```bash
-$ git https://github.com/basv1996/FunctionalProgramming.git
+$ git clone https://github.com/basv1996/FunctionalProgramming.git
 ```
 
 ## 🗃 Data
