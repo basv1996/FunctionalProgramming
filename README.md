@@ -11,11 +11,9 @@ De opdracht bestaat uit 2 delen.
 ## Table of Contents
   * [Opdracht](#assessment)
   * [📋 Concept](#---concept)
-  * [⚙️ Installation](#---installation)
-  * [↔️ Interaction diagram](#---interaction-diagram)
+  * [⚙️ Installatie](#---installation)
   * [🗃 Data](#---data)
-  * [👯🏿‍ Features (+ wishlist)](#------features----wishlist-)
-  * [🏫 Assignment](#---assignment)
+  * [🏫 Opdracht](#---Opdracht)
   * [ℹ️ Resources](#---resources)
   * [🗺️ License](#----license)
 
@@ -24,80 +22,55 @@ De opdracht bestaat uit 2 delen.
 Voor het vak functional programming is het concept dat je data weet te fetchen uit een dataset. Deze dataset komt vanuit een enquete die de studenten uit de tech track hebben ingevuld. Deze data moet hierna schoongemaakt worden door middel van filters die gebaseerd zijn op de functional programming principes.
 
 
-## ⚙️ Installation
-Clone this repository to your own device:
+## ⚙️ Installatie
+Om deze app te installeren kan je de repository clonen:
 ```bash
 $ git https://github.com/basv1996/FunctionalProgramming.git
 ```
 
 ## 🗃 Data
 ### 💽 Data cleaning
-_What has been done with the fetched data?_What has been done with the initial data? Cleaning pattern?_
+Hoe is de de data opgeschoond?
 
-See my [Wiki](https://github.com/deannabosschert/functional-programming/wiki/Data-opschonen) for a detailed view of my data cleaning and functional patterns.
+In de wiki staat uitgebreid beschreven hoe ik de data uit de datset heb opgeschoond. Je kan de [Wiki](https://github.com/basv1996/FunctionalProgramming/wiki/Opschonen-van-de-enquete-datan) lezen over hoe ik dit heb aangepakt.
 
 
-## 👯🏿‍ Features (+ wishlist)
-_What would you like to add (feature wishlist / backlog)?_
 
-- [ ] Some script that automatically writes the filtered data to my 'data'-folder in prebuild
 
-## 🏫 Assignment
+## 🏫 Opdracht
 <details>
-  <summary></strong> (click to expand)</summary>
-In this course we were rated on:
+  <summary></strong> (Klik om te openen)</summary>
+Tijdens het vak Functional Programming worden we beoordeld op de volgende punten:
 
-- Application of subject matter
-- Understanding
-- Quality
-- Process
-
-### Learning goals
-This assessment focusses on:
-* goal 1 (learn how to create with libraries)
-* goal 2 (create interactive visualisations from external data)
-* subgoal 1 (read _site)
-* subgoal 2 (write _site)
-* subgoal 5 (manipulate elements)
-* subgoal 6 (load external data)
-* subgoal 7 (transform data)
-* subgoal 8 (use svg)
-* subgoal 9 (use libraries)
+- Toepassing van het onderwerp
+- Begrijpen van de materie
+- Kwaliteit
+- Proces
 
 
 ### Week 1 - Data Cleaning 🧹
 
-**Goal**: learn how to create with libraries   
-I've learned how to load data locally and to fetch externally from an API, to clean that data and render this data.    
-See my [wiki](https://github.com/deannabosschert/functional-programming/wiki) for more.    
+**Goal**: Leren hoe je data kan showen en opschonen met functional programming   
+In week 1 heb ik geleerd hoe functional programming in zijn werk gaat. Tevens heb ik geleerd hoe je door middel van een fetch de data uit een json bestand kan ophalen(renderen).   
 
-### Week 2 - Datavisualizations 📊
-**Goal**: create interactive visualisations from external data    
-I've learned how to visualize the previous cleaned data in an interactive datavisualization, made with D3.js   
-See my [wiki](https://github.com/deannabosschert/functional-programming/wiki) for more.    
+### Week 2 - Werken met externe API 📊
+**Goal**: Data van een externe API renderen en opschonen 
+Ik heb deze week geleerd hoe je een externe API kan gebruiken.  
 
 </details>
 
 ### Rubric
 
-[Rubric- detailed rating of my project](https://github.com/deannabosschert/functional-programming/wiki/Rubric)
-![rubric](https://github.com/deannabosschert/functional-programming/blob/trunk/assets/img/rubric.png)
-
-## ℹ️ Resources
+[Rubric](https://github.com/basv1996/FunctionalProgramming/wiki/Rubric-Functional-Programming-21-22)
 
 ### Credits
-- Our superamazingteachers at the [Tech Track @CMD](https://github.com/cmda-tt/) :heart:
-- My amazing support group :heart:
-- Everyone keeping up with/tolerating me in Teams :heart:
+- Our superamazingteachers at the [Tech Track @CMD](https://github.com/cmda-tt/course-21-22) 
+- [Robert S.](https://github.com/roberrrt-s) :nerd_face:
+- The support groep team 3 and other people joining team 3 :muscle:
 
-### (Small) inspiration sources
-- https://www.section.io/engineering-education/templating-your-static-site/ for using ejs with 11ty
-- https://opendata.rdw.nl/browse?category=Parkeren&provenance=official&page=1 for the datasets
-- _site of Nunjucks, Eleventy, EJS, D3.js, etc.
-- My former projects, like progressive-web-apps
 
 ## 🗺️ License
-Author: [Deanna Bosschert](https://github.com/deannabosschert) , license by
-[MIT](https://github.com/deannabosschert/functional-programming/blob/master/LICENSE)      
+Author: [Bas Vugts](https://github.com/basv1996) , license by
+[MIT](https://github.com/basv1996/functional-programming/blob/master/LICENSE)      
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
