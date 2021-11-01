@@ -2,7 +2,7 @@
 
 ## Opdracht
 
-Leer hoe je data kan schoonmaken door middel van functional programming patterns. Hier zal later verder op worden gegaan door middel van 3D.js. Dit zal gebeuren in het vak [front-end data](https://github.com/basv1996/frontend-data) 
+Leer hoe je data kan schoonmaken door middel van functional programming patterns. Hier zal later verder op worden gegaan door middel van 3D.js. Dit zal gebeuren in het vak [front-end data](https://github.com/basv1996/FrontendData) 
 
 De opdracht bestaat uit 2 delen.
 * deel 1 is het leren van het schoonmaken van een dataset.
