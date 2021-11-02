@@ -1,10 +1,11 @@
-function checkIfEmpty(data) {
-    const cleanData = data.filter(item =>{
-        if (item.eyeColorColumn === ""){
-            item.eyeColorColumn = "null"
-        }
-        return item.eyeColorColumn
-    })
+function checkIfEmpty(str) {
+    if(typeof str === 'string' && 
+    str.length < 1 ){
+        'Niet ingevuld'
+    } else {
+        str
+    }
+    return str
 }
 
-export default checkIfEmpty;
+export default checkIfEmpty
