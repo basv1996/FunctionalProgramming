@@ -1,0 +1,5 @@
+import convertToString from "../modules/convertToString"
+import checkIfEmpty from "../modules/checkIfEmpty"
+import convertToLowerCase from "../modules/removeCaps"
+import removeSpaces from "../modules/removeSpaces"
+import removeStripe from "../modules/removeStripes"
