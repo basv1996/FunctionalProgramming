@@ -1,0 +1,23 @@
+[
+    {"color": "blauw",
+     "hex": "#0000FF"
+    },
+    {"color": "bruin",
+     "hex": "#964B00"
+    },
+    {"color": "donkerbruin",
+     "hex": "#654321"
+    },
+    {"color": "grijs",
+     "hex": "#808080"
+    },
+    {"color": "groen",
+     "hex": "#00ff00"
+    },
+    {"color": "groengrijs",
+     "hex": "#75816B"
+    },
+    {"color": "groenblauw",
+     "hex": "0d98ba"
+    },
+]
