@@ -64,7 +64,7 @@ Ik heb deze week geleerd hoe je een externe API kan gebruiken.
 [Rubric](https://github.com/basv1996/FunctionalProgramming/wiki/Rubric-Functional-Programming-21-22)
 
 ### Credits
-- Our superamazingteachers at the [Tech Track @CMD](https://github.com/cmda-tt/course-21-22) 
+-  [Tech Track @CMD](https://github.com/cmda-tt/course-21-22) 
 - [Robert S.](https://github.com/roberrrt-s) :nerd_face:
 - The support groep team 3 and other people joining team 3 :muscle:
 
