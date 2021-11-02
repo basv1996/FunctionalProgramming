@@ -1,10 +1,10 @@
 //importing the modules
-import convertToString from '/modules/convertToString.js'
-import checkIfEmpty from '/modules/checkIfEmpty.js'
-import convertToLowerCase from '/modules/convertToLowerCase.js'
-import removeSpaces from '/modules/removeSpaces.js'
-import removeStripe from '/modules/removeStripes.js'
-import stringToHex from './modules/stringToHex.js'
+import convertToString from '../modules/convertToString.js'
+import checkIfEmpty from '../modules/checkIfEmpty.js'
+import convertToLowerCase from '../modules/convertToLowerCase.js'
+import removeSpaces from '../modules/removeSpaces.js'
+import removeStripe from '../modules/removeStripes.js'
+import stringToHex from '../modules/stringToHex.js'
 
 
 const dataUrl = 'scripts/data.js'

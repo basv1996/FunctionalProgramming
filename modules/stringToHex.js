@@ -1,4 +1,4 @@
-import colors from '../scripts/getColors'
+import colors from '../scripts/getColors.js'
 
 function stringToHex(data, key){
     data.map(obj => {

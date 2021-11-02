@@ -1,3 +1,3 @@
-import parseData from getTheData.js
+import parseData from './getTheData.js'
 
 parseData()
