@@ -5,6 +5,12 @@
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
+h1 {
+    color: #fff;
+    text-align: center;
+    margin: 1em
+}
+
 main {
     margin: 1em;
     background-color: rgb(45, 53, 61);
