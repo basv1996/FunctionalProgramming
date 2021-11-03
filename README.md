@@ -4,7 +4,7 @@
 ![Interface van de app](https://github.com/basv1996/FunctionalProgramming/blob/main/wiki_Img/workingApp.png)
 
 ### Link naar de app
-[Link naar live app](https://fp-tt-basv.netlify.app/) 
+:globe_with_meridians: [Link naar live app](https://fp-tt-basv.netlify.app/) 
 
 
 ## Opdracht
