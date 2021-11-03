@@ -1,3 +1,3 @@
-import parseData from './getTheData.js'
+import parseData from './getTheData.js' //importeren van de fetchdata module
 
-parseData()
+parseData() // voer de functie uit
