@@ -1,5 +1,12 @@
 # functional programming
 
+## App Interface
+![Interface van de app](https://github.com/basv1996/FunctionalProgramming/blob/main/wiki_Img/workingApp.png)
+
+### Link naar de app
+[Link naar live app](https://fp-tt-basv.netlify.app/) 
+
+
 ## Opdracht
 
 Leer hoe je data kan schoonmaken door middel van functional programming patterns. Hier zal later verder op worden gegaan door middel van 3D.js. Dit zal gebeuren in het vak [front-end data](https://github.com/basv1996/FrontendData) 
@@ -30,6 +37,13 @@ $ git clone https://github.com/basv1996/FunctionalProgramming.git
 
 ## 🗃 Data
 ### 💽 Data cleaning
+Welke data heb ike gebruikt?
+
+De studenten van CMD die in de tech track zitten hebben een enquete ingevuld. De vragen en de antwoorden is de dataset geworden waarmee ik ben gaan werken.
+![Ruwe dataset](https://github.com/basv1996/FunctionalProgramming/blob/main/wiki_Img/Dataset_raw.png)
+
+
+
 Hoe is de de data opgeschoond?
 
 In de wiki staat uitgebreid beschreven hoe ik de data uit de datset heb opgeschoond. Je kan de [Wiki](https://github.com/basv1996/FunctionalProgramming/wiki/Opschonen-van-de-enquete-datan) lezen over hoe ik dit heb aangepakt.
