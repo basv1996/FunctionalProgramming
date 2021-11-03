@@ -6,50 +6,51 @@ import removeSpaces from '../modules/removeSpaces.js'
 import removeStripe from '../modules/removeStripes.js'
 import stringToHex from '../modules/stringToHex.js'
 
-
 const dataUrl = 'scripts/data.js'
-
-
+let eyeColorColumn = "Wat is je oogkleur?"
 
 function parseData() {
-    	return new Promise((resolve, reject) => {
-    		let dataSet = data;
-    		resolve(dataSet);
-    	}).then(data => {
+        fetch('../data/data.json') // haal de data binnen (fetchen)
+    	.then(results => results.json()) //geparsed naar een javascript object
+        .then(data => {
     		return data.map(obj => {
-    			Object.keys(obj).forEach(key => {
-    				 obj[key] = convertToString(obj[key]);
-                     obj[key] = checkIfEmpty(obj[key]);
-    				 obj[key] = convertToLowerCase(obj[key]);
-    				 obj[key] = removeSpaces(obj[key]);
-                     obj[key] = removeStripe(obj[key]);
-                   
+    			Object.keys(obj).forEach(key => { // loop door de data heen
+    				 obj[key] = convertToString(obj[key])
+                     obj[key] = checkIfEmpty(obj[key])
+    				 obj[key] = convertToLowerCase(obj[key])
+    				 obj[key] = removeSpaces(obj[key])
+                     obj[key] = removeStripe(obj[key])
     			})
-    			return obj;
+    			return obj // geef de gefilterde data terug
     		})
     	})
     	.then(data => {
     		return data.map(obj => {
     			//obj[eyeColorColumn]
                 obj['Wat is je oogkleur?'] = convertToString(obj['Wat is je oogkleur?']);
-    			return obj;
+    			return obj
     		})
-    	}).catch(err => {
-    		console.log(err);
+    	})
+        .then(cleanData => {
+            console.table(cleanData)
+            console.log(cleanData)
+            //console.log(typeof cleanData)    
+           
+            cleanData.map((item) => {
+                stringToHex(cleanData, eyeColorColumn)
+                //console.log(item[eyeColorColumn])
+                let li = document.createElement('p')
+                li.innerHTML = item[eyeColorColumn]
+                document.body.appendChild(li)
+                return item
+            })
+           
+        })
+        .catch(err => {
+    		console.log(err)
     	})
     }
 
-        parseData().then(cleanData => {
-        console.table(cleanData);  
-        console.log(cleanData);
-        console.log(typeof cleanData)  ;  
-       
-        cleanData.map((item) => {
-            console.log(item[eyeColorColumn])
-            let li = document.createElement('p')
-            li.innerHTML = item[eyeColorColumn]
-            document.body.appendChild(li)
-        })
-       
-    })
+        
     
+export default parseData
