@@ -39,9 +39,12 @@ function parseData() {
             cleanData.map((item) => {
                 stringToHex(cleanData, eyeColorColumn)
                 //console.log(item[eyeColorColumn])
-                let li = document.createElement('p')
-                li.innerHTML = item[eyeColorColumn]
-                document.body.appendChild(li)
+                let ptje = document.createElement('p')
+                let divje = document.createElement('div')
+                ptje.innerHTML = item[eyeColorColumn]
+                document.querySelector('#myData').appendChild(divje)
+                divje.appendChild(ptje)
+                divje.style.backgroundColor = item[eyeColorColumn]
                 return item
             })
            
